@@ -1,5 +1,5 @@
 import Logo from '../images/robinhood.svg';
-//import { Search } from '@mui/icons-material';
+import { Search } from '@mui/icons-material';
 import '../style/Header.css';
 
 function Header()
@@ -12,8 +12,8 @@ function Header()
 
             <div className='header_search'>
                 <div className='header_searchContainer'>
-                    {/*< Search style={{color:'white'}} />
-                    */}<input placeholder='Search' type='text' />
+                    < Search style={{color:'white'}} />
+                    <input placeholder='Search' type='text' />
                 </div>
             </div>
 
