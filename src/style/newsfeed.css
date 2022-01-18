@@ -1,0 +1,72 @@
+.newsfeed
+{
+    flex: 0.7;
+}
+
+.newsfeed_portfolio
+{
+    text-align: left;
+}
+
+
+.newsfeed_portfolio h1
+{
+    margin: 0;
+}
+
+.newsfeed_portfolio p
+{
+    margin-top: 0;
+}
+
+.newsfeed_buying_section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 20px;
+    border-bottom: 1px solid #3b4754;
+
+}
+
+.newsfeed_marketsection
+{
+    
+}
+
+.newsdfeed_market_box
+{
+    height: 10vh;   
+    padding: 20px;
+    border: 1px solid #31363A;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.newsdfeed_market_box p
+{
+    color: #7B858A;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+
+.newsfeed__popularlists__intro
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.newsfeed__popularlists__section
+{
+    margin-top: 60px;
+}
+
+

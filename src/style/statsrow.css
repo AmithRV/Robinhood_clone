@@ -1,0 +1,48 @@
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding:0 24px;
+    cursor: pointer;
+}
+
+.row:hover
+{
+    background-color: #31363A;;
+}
+.row_intro h1
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    text-align: left;
+}
+
+.row_intro p
+{
+    font-size: 12px;
+}
+
+.row_numbers
+{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.row_price
+{
+    padding-bottom: 4px;
+}
+
+.row_percentage
+{
+    color: #5ac53b;
+}
+
+.row_chart
+{
+    padding: 0 10px;
+}
